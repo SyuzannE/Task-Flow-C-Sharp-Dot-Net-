@@ -1,6 +1,6 @@
 # TaskFlow
 
-![CI](https://github.com/YOUR-USER/TaskFlow/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/SyuzannE/Task-Flow-C-Sharp-Dot-Net-/actions/workflows/ci.yml/badge.svg)
 
 A small but production-shaped **.NET 10** Web API demonstrating clean architecture, minimal APIs, EF Core, automated tests, CI and Docker.
 
