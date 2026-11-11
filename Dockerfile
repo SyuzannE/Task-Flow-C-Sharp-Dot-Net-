@@ -4,7 +4,7 @@ COPY Directory.Build.props Directory.Packages.props TaskFlow.slnx ./
 COPY src/ src/
 RUN dotnet publish src/TaskFlow.Api -c Release -o /app
 
-FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
+FROM mcr.microsoft.com/dotnet/aspnet:11.0 AS final
 WORKDIR /app
 RUN mkdir /data && chown $APP_UID /data
 COPY --from=build /app .
